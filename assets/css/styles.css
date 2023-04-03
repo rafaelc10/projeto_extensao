@@ -73,8 +73,13 @@
     margin-top: -20px;
 }
 
-button {
-    width: 200px;
+.button-area{
+    margin-top: 100px;
+}
+
+.content a {
+    width: 16rem;
+    display: inline-block;
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
@@ -86,6 +91,7 @@ button {
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    text-decoration: none;
 }
 
 span {
@@ -100,10 +106,10 @@ span {
     transition: 0.3s;
 }
 
-button:hover span {
+.content a:hover span {
     width: 100%;
 }
 
-button:hover {
+.content a:hover {
     border: none;
 }
